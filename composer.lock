@@ -4,9 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b464515910625d56f9211076200c2a8",
-    "content-hash": "0cfe9fbae2b5ee620eaa38d8f0840cca",
+    "hash": "25c9a305468b37c6828852b1cf0d37ca",
+    "content-hash": "dae5c14bf61f1f38fc1aa7c795567bcb",
     "packages": [
+        {
+            "name": "adrexia/brand",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adrexia/silverstripe-brand.git",
+                "reference": "9de6fe2efe143791cdb9044281dbe792f5209201"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adrexia/silverstripe-brand/zipball/9de6fe2efe143791cdb9044281dbe792f5209201",
+                "reference": "9de6fe2efe143791cdb9044281dbe792f5209201",
+                "shasum": ""
+            },
+            "require": {
+                "littlegiant/silverstripe-singleobjectadmin": "*",
+                "ryanpotter/silverstripe-color-field": "*",
+                "silverstripe/cms": "~3.3",
+                "silverstripe/framework": "~3.3"
+            },
+            "suggest": {
+                "heyday/silverstripe-colorpalette": "Offers a cms interface for the application of the colour palette"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Naomi Guyer",
+                    "email": "adrexia@gmail.com"
+                }
+            ],
+            "description": "Branding and basic site theming admin for silverstripe",
+            "keywords": [
+                "silverstripe"
+            ],
+            "time": "2016-04-22 10:16:32"
+        },
         {
             "name": "assertchris/hash-compat",
             "version": "1.0.1",
@@ -195,7 +235,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/camfindlay/silverstripe-socialnetwork-links/zipball/8b6ad3280a7c538001e54f4784301193bc7076f3",
+                "url": "https://api.github.com/repos/camfindlay/silverstripe-socialnetwork-links/zipball/0f3cc6c8f5b4c1646fa547d8a3ee4bf4f5d01287",
                 "reference": "8b6ad3280a7c538001e54f4784301193bc7076f3",
                 "shasum": ""
             },
@@ -228,6 +268,78 @@
                 "source": "https://github.com/camfindlay/silverstripe-socialnetwork-links/tree/config-yaml"
             },
             "time": "2016-04-24 05:17:07"
+        },
+        {
+            "name": "littlegiant/silverstripe-singleobjectadmin",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Little-Giant/silverstripe-singleobjectadmin.git",
+                "reference": "34ce492b4535415a4e0f9e7a201fa6d4f8f3b3e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Little-Giant/silverstripe-singleobjectadmin/zipball/34ce492b4535415a4e0f9e7a201fa6d4f8f3b3e4",
+                "reference": "34ce492b4535415a4e0f9e7a201fa6d4f8f3b3e4",
+                "shasum": ""
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stevie Mayhew",
+                    "email": "stevie@stevie.co.nz",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jeremy Bridson",
+                    "email": "jeremy.bridson@littlegiant.co.nz",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Single object administration via a LeftAndMain like interface",
+            "time": "2015-03-13 01:51:05"
+        },
+        {
+            "name": "ryanpotter/silverstripe-color-field",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rhym/silverstripe-color-field.git",
+                "reference": "a7d6b436406fb353ee673f6a7b3dadda9f6a9986"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rhym/silverstripe-color-field/zipball/a7d6b436406fb353ee673f6a7b3dadda9f6a9986",
+                "reference": "a7d6b436406fb353ee673f6a7b3dadda9f6a9986",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "silverstripe-color-field"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Potter",
+                    "homepage": "http://ryanpotter.co.nz/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Silverstripe Color Field",
+            "keywords": [
+                "silverstripe"
+            ],
+            "time": "2015-08-26 04:22:01"
         },
         {
             "name": "silverstripe-australia/gridfieldextensions",
@@ -1283,7 +1395,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "gdmedia/silverstripe-socialnetwork-links": 20
+        "gdmedia/silverstripe-socialnetwork-links": 20,
+        "adrexia/brand": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

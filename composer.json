@@ -19,7 +19,8 @@
         "silverstripe/userforms": "^3.1",
 		"silverstripe/blog": "^2.4",
 		"silverstripe/comments": "^2.0",
-		"gdmedia/silverstripe-socialnetwork-links": "dev-config-yaml"
+		"gdmedia/silverstripe-socialnetwork-links": "dev-config-yaml",
+		"adrexia/brand": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7"
