@@ -1,4 +1,4 @@
-<% include Carousel %>
+<% include HomePageCarousel %>
 
 	<% if $FeaturedTitle %>
     <section id="featured">
