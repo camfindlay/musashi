@@ -1,6 +1,12 @@
 {
 	"name": "silverstripe/installer",
 	"description": "The SilverStripe Framework Installer",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:camfindlay/silverstripe-socialnetwork-links.git"
+		}
+	],
 	"require": {
 		"php": ">=5.3.3",
 		"silverstripe/cms": "^3.3.1",
@@ -12,7 +18,8 @@
         "unclecheese/betterbuttons": "^1.3",
         "silverstripe/userforms": "^3.1",
 		"silverstripe/blog": "^2.4",
-		"silverstripe/comments": "^2.0"
+		"silverstripe/comments": "^2.0",
+		"gdmedia/silverstripe-socialnetwork-links": "dev-config-yaml"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7"

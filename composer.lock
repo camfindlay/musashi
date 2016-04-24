@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f59b0c2f32884712c6e0eb5ffd2c89ee",
-    "content-hash": "ee154be47d82ce66cc4b1bbc1ca71d4a",
+    "hash": "6b464515910625d56f9211076200c2a8",
+    "content-hash": "0cfe9fbae2b5ee620eaa38d8f0840cca",
     "packages": [
         {
             "name": "assertchris/hash-compat",
@@ -184,6 +184,50 @@
                 "zikula"
             ],
             "time": "2016-04-13 19:46:30"
+        },
+        {
+            "name": "gdmedia/silverstripe-socialnetwork-links",
+            "version": "dev-config-yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/camfindlay/silverstripe-socialnetwork-links.git",
+                "reference": "8b6ad3280a7c538001e54f4784301193bc7076f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/camfindlay/silverstripe-socialnetwork-links/zipball/8b6ad3280a7c538001e54f4784301193bc7076f3",
+                "reference": "8b6ad3280a7c538001e54f4784301193bc7076f3",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/cms": "^3.0.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "silverstripe-socialnetwork-links"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Corey Sewell - Guru Digital Media",
+                    "email": "corey@gdmedia.tv"
+                }
+            ],
+            "description": "Simple Silver Stripe module to display social network links in your template",
+            "homepage": "https://github.com/guru-digital/silverstripe-socialnetwork-links",
+            "keywords": [
+                "silverstripe",
+                "social networks",
+                "template"
+            ],
+            "support": {
+                "issues": "https://github.com/guru-digital/silverstripe-socialnetwork-links/issues",
+                "source": "https://github.com/camfindlay/silverstripe-socialnetwork-links/tree/config-yaml"
+            },
+            "time": "2016-04-24 05:17:07"
         },
         {
             "name": "silverstripe-australia/gridfieldextensions",
@@ -1238,7 +1282,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "gdmedia/silverstripe-socialnetwork-links": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

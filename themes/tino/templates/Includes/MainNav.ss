@@ -5,8 +5,10 @@
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             <a class="navbar-brand" href="$AbsoluteBaseURL">
-			<img src="$ThemeDir/img/logo.png" alt="$SiteConfig.Title"/>
-            <h1>$SiteConfig.Title</h1>
+			    <% if $SiteConfig.Logo %>
+                <img src="{$SiteConfig.Logo.CroppedImage(60,60).Url}" alt="$SiteConfig.Title" />
+                <% end_if %>
+                <h1>$SiteConfig.Title</h1>
 			<% if $SiteConfig.Tagline %>
             <p class="hidden-xs hidden-sm">$SiteConfig.Tagline</p>
 			<% end_if %>
