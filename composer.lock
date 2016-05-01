@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e6c5387aeb056eea3d2328c54c563aef",
-    "content-hash": "028a245afb80c5e25b354d6679fede92",
+    "hash": "cbdca7fed38fc6143a76f9cadaad56d4",
+    "content-hash": "4f5e79f37d3aaa9a12f2ebf8f34d4034",
     "packages": [
         {
             "name": "adrexia/brand",
@@ -13,22 +13,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/adrexia/silverstripe-brand.git",
-                "reference": "9de6fe2efe143791cdb9044281dbe792f5209201"
+                "reference": "39dd9c4ad59df0e719b0b792f706e3488e05537c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adrexia/silverstripe-brand/zipball/8343f1c6f4e42ce1b34448d8d9330bf9b8c8c15c",
-                "reference": "9de6fe2efe143791cdb9044281dbe792f5209201",
+                "url": "https://api.github.com/repos/adrexia/silverstripe-brand/zipball/39dd9c4ad59df0e719b0b792f706e3488e05537c",
+                "reference": "39dd9c4ad59df0e719b0b792f706e3488e05537c",
                 "shasum": ""
             },
             "require": {
+                "heyday/silverstripe-colorpalette": "dev-master",
                 "littlegiant/silverstripe-singleobjectadmin": "*",
                 "ryanpotter/silverstripe-color-field": "*",
                 "silverstripe/cms": "~3.3",
                 "silverstripe/framework": "~3.3"
-            },
-            "suggest": {
-                "heyday/silverstripe-colorpalette": "Offers a cms interface for the application of the colour palette"
             },
             "type": "silverstripe-module",
             "notification-url": "https://packagist.org/downloads/",
@@ -45,85 +43,42 @@
             "keywords": [
                 "silverstripe"
             ],
-            "time": "2016-04-22 10:16:32"
+            "time": "2016-04-25 02:14:45"
         },
         {
-            "name": "assertchris/hash-compat",
-            "version": "1.0.1",
+            "name": "adrexia/subsite-modeladmins",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/assertchris/hash-compat.git",
-                "reference": "085131ed20472cf0716b969890d38e7ed2c8ccb0"
+                "url": "https://github.com/adrexia/silverstripe-subsite-modeladmins.git",
+                "reference": "a77c075ba2de1d02a06ad1267dd26e5ea2bd8441"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/assertchris/hash-compat/zipball/085131ed20472cf0716b969890d38e7ed2c8ccb0",
-                "reference": "085131ed20472cf0716b969890d38e7ed2c8ccb0",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.6"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/hash.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Christopher Pitt",
-                    "email": "cgpitt@gmail.com"
-                }
-            ],
-            "description": "Provides forward compatibility with the hash_* functions that ship with PHP 5.5",
-            "time": "2015-05-05 23:42:48"
-        },
-        {
-            "name": "colymba/gridfield-bulk-editing-tools",
-            "version": "v2.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "29482dbd17e42c3de364aa3d46d20ba65175c9d3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/29482dbd17e42c3de364aa3d46d20ba65175c9d3",
-                "reference": "29482dbd17e42c3de364aa3d46d20ba65175c9d3",
+                "url": "https://api.github.com/repos/adrexia/silverstripe-subsite-modeladmins/zipball/a77c075ba2de1d02a06ad1267dd26e5ea2bd8441",
+                "reference": "a77c075ba2de1d02a06ad1267dd26e5ea2bd8441",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/framework": ">=3.1"
+                "silverstripe/cms": "~3.3",
+                "silverstripe/framework": "~3.3"
             },
             "type": "silverstripe-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD Simplified"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
-                    "name": "Thierry Francois",
-                    "homepage": "http://colymba.com"
-                },
-                {
-                    "name": "GitHub contributors",
-                    "homepage": "https://github.com/colymba/GridFieldBulkEditingTools/contributors"
+                    "name": "Naomi Guyer",
+                    "email": "naomi@silverstripe.com"
                 }
             ],
-            "description": "SilverStripe 3 GridField component to upload images and edit records in bulk",
-            "homepage": "https://github.com/colymba/GridFieldBulkEditingTools",
+            "description": "Extensions for subsite support of ModelAdmins and data objects",
             "keywords": [
-                "Image upload",
-                "bulk upload",
-                "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2016-04-11 19:31:21"
+            "time": "2016-04-24 12:18:54"
         },
         {
             "name": "composer/installers",
@@ -231,12 +186,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/camfindlay/silverstripe-socialnetwork-links.git",
-                "reference": "8b6ad3280a7c538001e54f4784301193bc7076f3"
+                "reference": "0f3cc6c8f5b4c1646fa547d8a3ee4bf4f5d01287"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/camfindlay/silverstripe-socialnetwork-links/zipball/0f3cc6c8f5b4c1646fa547d8a3ee4bf4f5d01287",
-                "reference": "8b6ad3280a7c538001e54f4784301193bc7076f3",
+                "reference": "0f3cc6c8f5b4c1646fa547d8a3ee4bf4f5d01287",
                 "shasum": ""
             },
             "require": {
@@ -267,20 +222,52 @@
                 "issues": "https://github.com/guru-digital/silverstripe-socialnetwork-links/issues",
                 "source": "https://github.com/camfindlay/silverstripe-socialnetwork-links/tree/config-yaml"
             },
-            "time": "2016-04-24 05:17:07"
+            "time": "2016-04-24 05:56:30"
         },
         {
-            "name": "littlegiant/silverstripe-singleobjectadmin",
-            "version": "1.0.0",
+            "name": "heyday/silverstripe-colorpalette",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Little-Giant/silverstripe-singleobjectadmin.git",
-                "reference": "34ce492b4535415a4e0f9e7a201fa6d4f8f3b3e4"
+                "url": "https://github.com/heyday/silverstripe-colorpalette.git",
+                "reference": "3c1f0f4920cc90fa66e85183a9d79ff525383174"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Little-Giant/silverstripe-singleobjectadmin/zipball/34ce492b4535415a4e0f9e7a201fa6d4f8f3b3e4",
-                "reference": "34ce492b4535415a4e0f9e7a201fa6d4f8f3b3e4",
+                "url": "https://api.github.com/repos/heyday/silverstripe-colorpalette/zipball/3c1f0f4920cc90fa66e85183a9d79ff525383174",
+                "reference": "3c1f0f4920cc90fa66e85183a9d79ff525383174",
+                "shasum": ""
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cam Spiers",
+                    "email": "camspiers@gmail.com"
+                },
+                {
+                    "name": "Kyle Beattie",
+                    "email": "kyle@heyday.co.nz"
+                }
+            ],
+            "description": "A coor palette picker for SilverStripe CMS",
+            "time": "2016-01-26 20:28:44"
+        },
+        {
+            "name": "littlegiant/silverstripe-singleobjectadmin",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Little-Giant/silverstripe-singleobjectadmin.git",
+                "reference": "6a00c7dab091724ef7a6ca7267c24fb5509c1d3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Little-Giant/silverstripe-singleobjectadmin/zipball/6a00c7dab091724ef7a6ca7267c24fb5509c1d3f",
+                "reference": "6a00c7dab091724ef7a6ca7267c24fb5509c1d3f",
                 "shasum": ""
             },
             "type": "silverstripe-module",
@@ -301,7 +288,7 @@
                 }
             ],
             "description": "Single object administration via a LeftAndMain like interface",
-            "time": "2015-03-13 01:51:05"
+            "time": "2016-04-24 22:37:41"
         },
         {
             "name": "ryanpotter/silverstripe-color-field",
@@ -536,55 +523,6 @@
                 "silverstripe"
             ],
             "time": "2016-02-29 02:01:55"
-        },
-        {
-            "name": "silverstripe/comments",
-            "version": "2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-comments.git",
-                "reference": "384979662a26d7db6708f8efa12e2de7d6f9733d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-comments/zipball/384979662a26d7db6708f8efa12e2de7d6f9733d",
-                "reference": "384979662a26d7db6708f8efa12e2de7d6f9733d",
-                "shasum": ""
-            },
-            "require": {
-                "assertchris/hash-compat": "~1.0",
-                "colymba/gridfield-bulk-editing-tools": "~2.1",
-                "silverstripe/framework": "~3.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~3.7@stable"
-            },
-            "suggest": {
-                "ezyang/htmlpurifier": "Standards compliant HTML filter written in PHP",
-                "silverstripe/cms": "The SilverStripe Content Management System"
-            },
-            "type": "silverstripe-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Will Rossiter",
-                    "email": "will@fullscreen.io"
-                }
-            ],
-            "description": "This module provides commenting functionality for Pages and other DataObjects on your SilverStripe site.",
-            "keywords": [
-                "comments",
-                "silverstripe"
-            ],
-            "time": "2016-02-03 23:00:02"
         },
         {
             "name": "silverstripe/framework",
@@ -986,6 +924,60 @@
                 "widgets"
             ],
             "time": "2016-02-04 05:15:05"
+        },
+        {
+            "name": "studiobonito/silverstripe-google-analytics",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/studiobonito/silverstripe-google-analytics.git",
+                "reference": "cd4bf48912168bf3a7ebf59dc09897045d4633eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studiobonito/silverstripe-google-analytics/zipball/cd4bf48912168bf3a7ebf59dc09897045d4633eb",
+                "reference": "cd4bf48912168bf3a7ebf59dc09897045d4633eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "silverstripe/cms": ">=3.1.2,<4.0",
+                "silverstripe/framework": ">=3.1.2,<4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1",
+                "symfony/class-loader": "~2.3"
+            },
+            "type": "silverstripe-module",
+            "autoload": {
+                "psr-4": {
+                    "StudioBonito\\SilverStripe\\GoogleAnalytics\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Densham",
+                    "email": "tom.densham@studiobonito.co.uk",
+                    "homepage": "http://www.studiobonito.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provide basic Google Analytics integration for SilverStripe CMS.",
+            "homepage": "https://github.com/studiobonito/silverstripe-google-analytics",
+            "keywords": [
+                "analytics",
+                "google",
+                "silverstripe",
+                "silverstripe-google-analytics",
+                "studiobonito"
+            ],
+            "time": "2016-04-28 08:05:21"
         },
         {
             "name": "unclecheese/betterbuttons",

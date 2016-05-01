@@ -18,10 +18,11 @@
         "unclecheese/betterbuttons": "^1.3",
         "silverstripe/userforms": "^3.1",
 		"silverstripe/blog": "^2.4",
-		"silverstripe/comments": "^2.0",
 		"gdmedia/silverstripe-socialnetwork-links": "dev-config-yaml",
 		"adrexia/brand": "dev-master",
-		"silverstripe/widgets": "^1.2"
+		"silverstripe/widgets": "^1.2",
+		"studiobonito/silverstripe-google-analytics": "^2.0",
+		"adrexia/subsite-modeladmins": "^1.3"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7"

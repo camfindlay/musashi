@@ -22,8 +22,6 @@ _ss_environment.php
 /reports/
 /userforms/
 /blog/
-/comments/
-/gridfield-bulk-editing-tools/
 /lumberjack/
 /tagfield/
 /silverstripe-socialnetwork-links/
@@ -31,5 +29,8 @@ _ss_environment.php
 /silverstripe-color-field/
 /silverstripe-singleobjectadmin/
 /widgets/
+/silverstripe-colorpalette/
+/silverstripe-google-analytics/
+/subsite-modeladmins/
 
 

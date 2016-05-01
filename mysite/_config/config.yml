@@ -15,3 +15,9 @@ Blog:
 BlogPost:
   extensions:
     - WidgetPageExtension
+Brand:
+  extensions:
+    - SubsiteModelExtension
+BrandAdmin:
+  extensions:
+    - SubsiteMenuExtension
