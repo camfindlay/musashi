@@ -4,6 +4,8 @@ After:
   - 'framework/*'
   - 'cms/*'
 ---
+_2fa\Extensions\Member:
+  validated_activation_mode: true
 HtmlEditorField:
   use_gzip: false
 SSViewer:
