@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a3604a4c5a77bc031c7badbfe60d730a",
+    "content-hash": "1495de98372a4fafcc5572bfca7bebea",
     "packages": [
         {
             "name": "adrexia/brand",
@@ -78,6 +78,67 @@
                 "silverstripe"
             ],
             "time": "2016-04-24T12:18:54+00:00"
+        },
+        {
+            "name": "camfindlay/silverstripe-twofactorauth",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/camfindlay/silverstripe-twofactorauth.git",
+                "reference": "014911ed9fd80c8ed87f6a1822f27ace49073770"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/camfindlay/silverstripe-twofactorauth/zipball/014911ed9fd80c8ed87f6a1822f27ace49073770",
+                "reference": "014911ed9fd80c8ed87f6a1822f27ace49073770",
+                "shasum": ""
+            },
+            "require": {
+                "endroid/qr-code": "1.3.*",
+                "rych/otp": "1.1.*",
+                "silverstripe/framework": "^3.3.2 || ^3.2.4 || ^3.1.19"
+            },
+            "conflict": {
+                "91carriage/2fa": "*"
+            },
+            "replace": {
+                "91carriage/2fa": "*"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "twofactorauth",
+                "screenshots": [
+                    "docs/en/_images/2fa-token-qr.png",
+                    "docs/en/_images/2fa-login.png",
+                    "docs/en/_images/2fa-backup.png"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cam Findlay",
+                    "email": "hello@camfindlay.com"
+                },
+                {
+                    "name": "Fred Condo",
+                    "email": "fcondo@quinn.com",
+                    "homepage": "http://oddnoc.github.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Adds 2 factor authentication to SilverStripe CMS",
+            "homepage": "https://github.com/camfindlay/silverstripe-twofactorauth",
+            "keywords": [
+                "2fa",
+                "Authentication",
+                "otp",
+                "security",
+                "silverstripe"
+            ],
+            "time": "2018-03-14T21:31:40+00:00"
         },
         {
             "name": "composer/installers",
@@ -198,6 +259,56 @@
                 "zikula"
             ],
             "time": "2017-12-29T09:13:20+00:00"
+        },
+        {
+            "name": "endroid/qr-code",
+            "version": "1.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/endroid/qr-code.git",
+                "reference": "2f16a33eda047e6116f57ebe9cc7dbf6ec316396"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/endroid/qr-code/zipball/2f16a33eda047e6116f57ebe9cc7dbf6ec316396",
+                "reference": "2f16a33eda047e6116f57ebe9cc7dbf6ec316396",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Endroid": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen van den Enden",
+                    "email": "info@endroid.nl",
+                    "homepage": "http://endroid.nl/"
+                }
+            ],
+            "description": "Endroid QR Code",
+            "homepage": "https://github.com/endroid/QrCode",
+            "keywords": [
+                "code",
+                "endroid",
+                "qr",
+                "qrcode"
+            ],
+            "time": "2014-08-06T21:30:48+00:00"
         },
         {
             "name": "gdmedia/silverstripe-socialnetwork-links",
@@ -396,6 +507,116 @@
                 "silverstripe"
             ],
             "time": "2015-08-26T04:22:01+00:00"
+        },
+        {
+            "name": "rych/otp",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rchouinard/rych-otp.git",
+                "reference": "b3c7fc11284c546cd291f14fb383a7d49ab23832"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rchouinard/rych-otp/zipball/b3c7fc11284c546cd291f14fb383a7d49ab23832",
+                "reference": "b3c7fc11284c546cd291f14fb383a7d49ab23832",
+                "shasum": ""
+            },
+            "require": {
+                "ext-hash": "*",
+                "php": ">=5.3.4",
+                "rych/random": "0.1.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.7",
+                "satooshi/php-coveralls": "~0.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rych\\OTP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Chouinard",
+                    "email": "rchouinard@gmail.com",
+                    "homepage": "http://ryanchouinard.com"
+                }
+            ],
+            "description": "PHP implementation of the OATH one-time password standards",
+            "homepage": "https://github.com/rchouinard/rych-otp",
+            "keywords": [
+                "hotp",
+                "oath",
+                "otp",
+                "rfc4226",
+                "rfc6238",
+                "security",
+                "totp"
+            ],
+            "time": "2015-06-30T03:38:02+00:00"
+        },
+        {
+            "name": "rych/random",
+            "version": "v0.1.0",
+            "target-dir": "Rych/Random",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rchouinard/rych-random.git",
+                "reference": "c728202f2ba60cf158a711c751979006944c4ec5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rchouinard/rych-random/zipball/c728202f2ba60cf158a711c751979006944c4ec5",
+                "reference": "c728202f2ba60cf158a711c751979006944c4ec5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.4"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "0.4.*@dev",
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "suggest": {
+                "ext-mcrypt": "*",
+                "ext-openssl": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Rych\\Random": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Chouinard",
+                    "email": "rchouinard@gmail.com",
+                    "homepage": "http://ryanchouinard.com"
+                }
+            ],
+            "description": "Random data generator for PHP",
+            "homepage": "https://github.com/rchouinard/rych-random",
+            "keywords": [
+                "cryptography",
+                "random"
+            ],
+            "time": "2013-11-12T03:36:50+00:00"
         },
         {
             "name": "silverstripe-australia/gridfieldextensions",
