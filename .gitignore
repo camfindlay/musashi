@@ -33,4 +33,6 @@ _ss_environment.php
 /silverstripe-google-analytics/
 /subsite-modeladmins/
 /twofactorauth/
+/gallery/
+/sortablefile/
 
